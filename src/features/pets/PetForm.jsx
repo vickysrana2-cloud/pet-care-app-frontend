@@ -82,7 +82,7 @@ useEffect(() => {
     setTimeout(() => {
       setMessage({ text: "", type: "" });
       onClose();
-      
+      navigate(0);
     }, 1200);
   }
 };
