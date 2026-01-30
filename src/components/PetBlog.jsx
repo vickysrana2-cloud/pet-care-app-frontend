@@ -1,6 +1,7 @@
 import React from "react";
 import { FaPaw, FaHeart, FaInfoCircle } from "react-icons/fa";
 
+
 const PetBlog = () => {
   // Static / read-only pet data (can later come from API)
   const pet = {
@@ -20,7 +21,7 @@ const PetBlog = () => {
     ],
     healthInfo:
       "Buddy is fully vaccinated and in excellent health. Regular exercise is recommended to maintain his fitness.",
-    image: "/hero-pet.jpg",
+    image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=80",
   };
 
   return (
